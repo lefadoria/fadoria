@@ -35,8 +35,8 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
 }
 .brand img {
-  width: 116px;
-  height: 58px;
+  width: 150px;
+  height: 75px;
   object-fit: contain;
   mix-blend-mode: multiply;
 }
