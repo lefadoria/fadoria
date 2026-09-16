@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fadoria — cours de chant à domicile, personnalisés et bienveillants.">
+  <title>Fadoria — Cours de chant à domicile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Fadoria, accueil">
+      <img src="assets/fadoria-logo.jpg" alt="Logo Fadoria">
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#cours">Les cours</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#rdv">Prendre rendez-vous</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">CHANT · À DOMICILE · PERSONNALISÉ</p>
+        <h1>Faites entendre<br><em>votre voix.</em></h1>
+        <p class="hero-text">
+          Avec <strong>Fadoria</strong>, découvrez des cours de chant à domicile,
+          pensés pour progresser avec confiance, plaisir et liberté.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#rdv">Prendre rendez-vous <span>→</span></a>
+          <a class="btn btn-ghost" href="#contact">Discuter avec moi <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span>♪</span> Votre voix, votre rythme, votre univers.</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="flower flower-1">✦</div>
+        <div class="flower flower-2">✿</div>
+        <div class="music">♫</div>
+      </div>
+    </section>
+
+    <section id="apropos" class="intro section">
+      <div class="section-label">01 — Fadoria</div>
+      <div>
+        <h2>Le chant vient<br><em>à vous.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>
+          Fadoria propose une approche simple et humaine du chant : un accompagnement
+          individuel directement chez vous, dans un cadre confortable et sans pression.
+        </p>
+        <p>
+          Que vous débutiez ou que vous souhaitiez perfectionner votre technique,
+          chaque séance s'adapte à votre voix, à vos envies et à vos objectifs.
+        </p>
+      </div>
+    </section>
+
+    <section id="cours" class="services section">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">02 — Les cours</div>
+          <h2>Chanter, <em>à votre manière.</em></h2>
+        </div>
+        <p>Des séances sur mesure pour prendre confiance, développer sa technique et surtout prendre plaisir à chanter.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-number">01</div>
+          <h3>Technique vocale</h3>
+          <p>Respiration, placement, justesse, soutien et découverte des possibilités de votre voix.</p>
+        </article>
+        <article class="card card-featured">
+          <div class="card-number">02</div>
+          <h3>Interprétation</h3>
+          <p>Travail autour de chansons que vous aimez, musicalité, émotions et confiance en soi.</p>
+        </article>
+        <article class="card">
+          <div class="card-number">03</div>
+          <h3>À domicile</h3>
+          <p>Un cours individuel dans votre environnement, avec un accompagnement adapté à votre rythme.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <blockquote>Il n'est pas nécessaire d'avoir une voix parfaite pour commencer à chanter.</blockquote>
+      <p>Il suffit d'avoir envie de la faire entendre.</p>
+    </section>
+
+    <section id="rdv" class="booking section">
+      <div class="booking-copy">
+        <div class="section-label">03 — Rendez-vous</div>
+        <h2>Envie de <em>chanter ?</em></h2>
+        <p>
+          Réservez votre premier échange pour faire connaissance, parler de vos envies
+          et voir ensemble comment Fadoria peut vous accompagner.
+        </p>
+        <div class="mini-info">
+          <span>✦</span>
+          <div><strong>Cours individuels</strong><br>À domicile · Sur rendez-vous</div>
+        </div>
+      </div>
+
+      <form class="booking-form" id="booking-form">
+        <label>
+          Votre prénom
+          <input name="prenom" type="text" placeholder="Ex. Camille" required>
+        </label>
+        <label>
+          Votre adresse e-mail
+          <input name="email" type="email" placeholder="vous@exemple.fr" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Parlez-moi de votre projet, votre niveau ou vos disponibilités…" required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Demander un rendez-vous <span>→</span></button>
+        <p class="form-hint">Le formulaire est prêt à être relié à votre outil de réservation ou à votre adresse e-mail.</p>
+      </form>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-label">04 — Contact</div>
+      <div class="contact-grid">
+        <div>
+          <h2>Parlons de<br><em>votre voix.</em></h2>
+        </div>
+        <div class="contact-details">
+          <p>Une question avant de commencer ? Écrivez-moi, je vous répondrai avec plaisir.</p>
+          <a class="contact-link" href="mailto:bonjour@fadoria.fr">bonjour@fadoria.fr <span>↗</span></a>
+          <a class="contact-link" href="#rdv">Prendre rendez-vous <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">Fadoria <span>♪</span></div>
+    <p>Cours de chant à domicile</p>
+    <p>© <span id="year"></span> Fadoria</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
