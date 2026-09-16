@@ -35,8 +35,8 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
 }
 .brand img {
-  width: 150px;
-  height: 75px;
+  width: 300px;
+  height: 150px;
   object-fit: contain;
   mix-blend-mode: multiply;
 }
@@ -209,7 +209,7 @@ footer {
 }
 @media (max-width: 700px) {
   .site-header { height: 75px; }
-  .brand img { width: 130px; height: 65px; }
+  .brand img { width: 260px; height: 130px; }
   .menu-toggle { display: block; position: relative; z-index: 30; }
   .nav {
     position: absolute; top: 75px; left: 15px; right: 15px; padding: 22px;
